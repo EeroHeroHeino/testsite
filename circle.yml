@@ -1,6 +1,3 @@
-
-https://github.com/EeroHeroHeino/testsite.git
-
 dependencies:
   post:
     - wget http://usetrace.com/integration/jenkins-usetrace.sh
