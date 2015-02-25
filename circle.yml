@@ -1,8 +1,7 @@
 dependencies:
   post:
-    - wget http://usetrace.com/integration/jenkins-usetrace.sh
+    - wget http://usetrace.com/integration/usetrace-run.sh
 
 test:
   override:
-    - bash jenkins-usetrace.sh UP1y_f39cv0MAAAUaf1T_Tv9R_39_f00 http://testsite.usetrace.com chrome,firefox
-
+    - bash usetrace-run.sh UP1y_f39cv0MAAAUaf1T_Tv9R_39_f00 http://testsite.usetrace.com chrome,firefox
